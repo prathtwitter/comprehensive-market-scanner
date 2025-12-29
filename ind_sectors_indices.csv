@@ -1,0 +1,23 @@
+Ticker,Name
+^NSEI,Nifty 50 Index
+^NSEBANK,Nifty Bank Index
+^CNXIT,Nifty IT Index
+^CNXPHARMA,Nifty Pharma Index
+^CNXAUTO,Nifty Auto Index
+^CNXFMCG,Nifty FMCG Index
+^CNXMETAL,Nifty Metal Index
+^CNXREALTY,Nifty Realty Index
+^CNXENERGY,Nifty Energy Index
+^CNXINFRA,Nifty Infrastructure Index
+^CNXPSUBANK,Nifty PSU Bank Index
+^CNXMEDIA,Nifty Media Index
+^NSMIDCP,Nifty Midcap 100 Index
+^NSEMDCP50,Nifty Midcap 50 Index
+NIFTYBEES.NS,Nippon India Nifty BeES
+BANKBEES.NS,Nippon India Bank BeES
+JUNIORBEES.NS,Nippon India Junior BeES
+GOLDBEES.NS,Nippon India Gold BeES
+ITBEES.NS,Nippon India IT BeES
+PSUBNKBEES.NS,Nippon India PSU Bank BeES
+SETFNIF50.NS,SBI Nifty 50 ETF
+SETFNN50.NS,SBI Nifty Next 50 ETF
