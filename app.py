@@ -763,11 +763,13 @@ def main():
         st.caption("Stocks with at least 1 bullish signal (sorted by signal count - click column header to re-sort)")
         
         if bull_table is not None and not bull_table.empty:
+            # Calculate dynamic height based on rows (35px per row + 60px for header)
+            table_height = len(bull_table) * 35 + 60
             st.dataframe(
                 bull_table,
                 hide_index=True,
                 use_container_width=True,
-                height=None  # No fixed height - show all rows
+                height=table_height
             )
         else:
             st.info("No bullish signals found.")
@@ -778,11 +780,13 @@ def main():
         st.caption("Stocks with at least 1 bearish signal (sorted by signal count - click column header to re-sort)")
         
         if bear_table is not None and not bear_table.empty:
+            # Calculate dynamic height based on rows (35px per row + 60px for header)
+            table_height = len(bear_table) * 35 + 60
             st.dataframe(
                 bear_table,
                 hide_index=True,
                 use_container_width=True,
-                height=None  # No fixed height - show all rows
+                height=table_height
             )
         else:
             st.info("No bearish signals found.")
